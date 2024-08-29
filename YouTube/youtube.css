@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-div{
+    width: 350px;
+    height: 250px;
+    background-color: red;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div{
+    width: 0px;
+    height: 0px;
+    border-top: 75px solid red;
+    border-left: 150px solid white;
+    border-bottom: 75px solid red;
+
+}

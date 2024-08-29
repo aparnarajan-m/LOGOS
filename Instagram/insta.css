@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.main-div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-layer{
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-layer{
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-layer2{
+    width: 170px;
+    height: 170px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inner-layer3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-layer4{
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 45px;
+}
+.small-round{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: -118px 0px 0px -110px;
+}
